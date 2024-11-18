@@ -52,8 +52,9 @@ body{
 
 #damn:checked + .popupMessage{
   opacity: 1;
-  transition: 250ms linear;
+  transition:opacity 250ms linear;
   box-shadow: 0px 0px 100px 1000px rgba(0, 0, 0, 0.6);
+  display: flex;
 }
 
 .likeForm{
@@ -96,8 +97,8 @@ body{
   width: 30rem;
   transform: translateY(-50%) translateX(-50%);
   opacity: 0;
-  transition: 250ms linear;
-  display: flex;
+  transition:opacity 250ms linear;
+  display: none;
   justify-content: center;
   align-items: center;
   color: white;
