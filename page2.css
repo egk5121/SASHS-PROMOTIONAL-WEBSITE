@@ -1,0 +1,59 @@
+Christian Tribiana
+body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("so.jpg");
+            background-size: 100% 100%
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .activity-section {
+            margin-bottom: 30px;
+        }
+
+        .activity-section h2 {
+            margin-top: 0;
+        }
+
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+            gap: 20px;
+            place-items: center;
+        }
+
+        .activity-card {
+            text-align: center; 
+            position: relative;
+            overflow: clip;
+            max-width: 18rem;
+            max-height: 18rem;
+            border: solid;
+        }
+
+        .activity-card img {
+            width: 18rem;
+            margin-bottom: 10px;
+            height: 18rem;
+            object-fit: fill;
+        }
+
+.one{
+             background: linear-gradient(to bottom, #FF0000, #0000FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}

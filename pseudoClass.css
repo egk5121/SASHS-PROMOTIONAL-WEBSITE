@@ -1,0 +1,131 @@
+.mathOne::after,
+.mathTwo::after,
+.mathThree::after,
+.mathFour::after,
+.mathFive::after,
+.mathSix::after,
+.mathSeven::after,
+.mathEight::after,
+.mathNine::after,
+.mathTen::after,
+.mathEleven::after,
+.mathTwelve::after,
+.mathThirteen::after,
+.mathFourteen::after,
+.mathFifteen::after
+{
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 255, 0.7);
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 250ms linear;
+    font-family:big ;
+    font-size: 2rem;
+}
+
+.mathOne:hover::before,
+.mathTwo:hover::before,
+.mathThree:hover::before,
+.mathFour:hover::before,
+.mathFive:hover::before,
+.mathSix:hover::before,
+.mathSeven:hover::before,
+.mathEight:hover::before,
+.mathNine:hover::before,
+.mathTen:hover::before,
+.mathEleven:hover::before,
+.mathTwelve:hover::before,
+.mathThirteen:hover::before,
+.mathFourteen:hover::before,
+.mathFifteen:hover::before
+{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 250ms linear;
+}
+
+.mathOne:hover::after {
+    height: 40%;
+    content: "GROUP 6";
+}
+
+.mathTwo:hover::after {
+    height: 40%;
+    content: 'GROUP 2';
+}
+
+.mathThree:hover::after {
+    height: 40%;
+    content: 'GROUP 3';
+}
+
+.mathFour:hover::after {
+    height: 40%;
+    content: 'GROUP 4';
+}
+
+.mathFive:hover::after {
+    height: 40%;
+    content: 'GROUP 5';
+}
+
+.mathSix:hover::after {
+    height: 40%;
+    content: 'GROUP 7';
+}
+
+.mathSeven:hover::after {
+    height: 40%;
+    content: 'GROUP 8';
+}
+
+.mathEight:hover::after {
+    height: 40%;
+    content: 'GROUP 9';
+}
+
+.mathNine:hover::after {
+    height: 40%;
+    content: 'GROUP 1';
+}
+
+.mathTen:hover::after {
+    height: 40%;
+    content: 'GROUP 1';
+}
+
+.mathEleven:hover::after {
+    height: 40%;
+    content: 'GROUP 2';
+}
+
+.mathTwelve:hover::after {
+    height: 40%;
+    content: 'GROUP 3';
+}
+
+.mathThirteen:hover::after {
+    height: 40%;
+    content: 'FLIPTOP BATTLE';
+}
+
+.mathFourteen:hover::after {
+    height: 40%;
+    content: 'NEWS REPORTING';
+}
+
+.mathFifteen:hover::after {
+    height: 40%;
+    content: 'FILM MAKING';
+}
