@@ -49,3 +49,27 @@ body {
 .col{
     background-color: yellow;
 }
+
+.tableBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tableBox table{
+    background-color: var(--gray);
+    height: 20rem;
+    width: 40rem;
+    transition: linear 250ms;
+}
+
+.tableBox table th:hover{
+    background-color: var(--orange);
+    transition: linear 250ms;
+}
+
+.col{
+    background-color: yellow;
+}
