@@ -216,7 +216,15 @@ body{
         transition: 250ms linear;
     }
 
-
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        background-color: var(--orange);
+        width: 100%;
+        margin-top: 1rem;
+    }
 
 .labell{
     margin-right: 1rem;
@@ -530,6 +538,9 @@ body{
         }
         .dropDown a{
             font-size: 1rem;
+        }
+        .footer{
+            font-size: 0.7rem;
         }
     }
 
