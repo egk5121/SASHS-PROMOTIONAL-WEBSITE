@@ -10,6 +10,14 @@
     color: black;
 }
 
+.everythingContainer{
+    background-color: rgba(128, 128, 128, 0.3);
+    padding-block: 1rem;
+    border-radius: 25px;
+    margin-inline: 0.3rem;
+    padding-inline: 0.2rem;
+}
+
 @font-face {
     font-family:"regular" ;
     src: url(Fonts/MarkoOne-Regular.ttf);

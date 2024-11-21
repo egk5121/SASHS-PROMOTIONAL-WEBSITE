@@ -258,6 +258,11 @@ body{
   background-size:100% 100%;
 }
 
+.footer{
+  position: absolute;
+  bottom: 0px;
+}
+
 @media (max-width:500px){
   .deksBox{
     width: 20rem;
