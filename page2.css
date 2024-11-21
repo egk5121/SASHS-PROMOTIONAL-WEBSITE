@@ -8,9 +8,13 @@ body {
         }
 
         header {
-            background-color: #f0f0f0;
+            background-color: var(--orange);
             padding: 20px;
             text-align: center;
+            width: fit-content;
+            margin-inline: auto;
+            margin-top: 1rem;
+            border-radius: 25px;
         }
 
         h1 {
